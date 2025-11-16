@@ -59,13 +59,14 @@ A presentation outline covering the key concepts, services, and architectures fo
 
 ### 4. Head-to-Head Comparison
 *   **Comparison Table:**
-| Feature | Batch Processing | Stream Processing |
-| :--- | :--- | :--- |
-| **Data Scope** | Large, bounded datasets | Individual records or micro-batches |
-| **Latency** | High (minutes to hours) | Low (milliseconds to seconds) |
-| **Analysis** | Complex, deep analytics | Simple analytics, transformations, alerting |
-| **Data Size** | Terabytes to Petabytes | Kilobytes to Megabytes |
-| **Architecture** | Scheduled, job-oriented | Continuous, event-driven |
+
+| Feature          | Batch Processing        | Stream Processing                           |
+| :---             | :---                    | :---                                        |
+| **Data Scope**   | Large, bounded datasets | Individual records or micro-batches         |
+| **Latency**      | High (minutes to hours) | Low (milliseconds to seconds)               |
+| **Analysis**     | Complex, deep analytics | Simple analytics, transformations, alerting |
+| **Data Size**    | Terabytes to Petabytes  | Kilobytes to Megabytes                      |
+| **Architecture** | Scheduled, job-oriented | Continuous, event-driven                    |
 
 ### 5. Hybrid Architectures: The Best of Both Worlds
 *   **Lambda Architecture:**
